@@ -3,9 +3,8 @@ name = "rouille"
 version = "0.1.0"
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+rouille = { git = "https://github.com/joxcat/rouille.git", rev = "0186b0508f746a431f997aa0f9da692515990a79" }
 
 [lib]
 proc-macro = true
