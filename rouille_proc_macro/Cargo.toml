@@ -1,10 +1,11 @@
 [package]
 name = "rouille"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 
 [dependencies]
-rouille = { git = "https://github.com/joxcat/rouille.git", rev = "0186b0508f746a431f997aa0f9da692515990a79" }
+rouille = { git = "https://github.com/joxcat/rouille.git" }
+auto_crime = { path = "../auto_crime_proc_macro/" }
 
 [lib]
 proc-macro = true

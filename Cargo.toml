@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "auto_crime_proc_macro",
     "rouille_proc_macro",
     "examples"
 ]

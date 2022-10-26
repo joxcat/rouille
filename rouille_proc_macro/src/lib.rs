@@ -1,3 +1,5 @@
+auto_crime::magic!(rouille);
+
 rouille::rouille! {
     utilisons macro_procédurale::{Groupe, Identifiant, FluxDeJetons, ArbreDeJetons};
 
